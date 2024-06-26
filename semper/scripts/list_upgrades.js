@@ -4,7 +4,7 @@ function(context, args)
 	const orderBy = ["tier", "name", "type", "loaded", "rarity"];
 
 	if (args === null || !orderBy.includes(args["orderBy"])) {
-		return "Usage: semper.test { orderBy: \"" + orderBy.sort().join(" | ") + "\", ascending: true }";
+		return "Usage: semper.list_upgrades { orderBy: \"" + orderBy.sort().join(" | ") + "\", ascending: true }";
 	}
 
 	const isAsc  = args.hasOwnProperty("ascending") ? args["ascending"] : true;
