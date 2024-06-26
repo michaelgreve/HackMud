@@ -4,7 +4,7 @@ A collection of scripts for use with the game [HackMud]
 
 ## Scripts and usage
 
-### ```semper.sort_upgrades```
+### ```semper.list_upgrades```
 
 #### Key / Value
 - orderBy
@@ -18,6 +18,6 @@ A collection of scripts for use with the game [HackMud]
   - false  
 
 #### Example:  
-```semper.sort_upgrades { orderBy:"type", ascending: false}```
+```semper.list_upgrades { orderBy:"type", ascending: false}```
 
 [hackmud]: https://hackmud.com/ "HackMud"
